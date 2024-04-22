@@ -188,7 +188,6 @@ nav #home{
 
 /* ROCOMMENDED SECTION STYEL START  */
 .recommended{
-    background-color: white;
     margin-top: 6rem;
 }
 
@@ -221,30 +220,34 @@ nav #home{
 }
 
 .recommended .row>div .one {
-    width: 2rem;
-    height: 2rem;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border:2px solid #198754;
+    background-color: #FFFFFF;
     border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .recommended .row>div .two {
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #DEE2E6;
     border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .recommended .row>div .three {
+    background-color: #ffffff;
+    border-radius: 50%;
     width: 1rem;
     height: 1rem;
-    background-color: blue;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ROCOMMENDED SECTION STYEL END  */
