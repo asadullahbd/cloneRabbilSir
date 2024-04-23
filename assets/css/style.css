@@ -798,6 +798,14 @@ footer > .row:nth-child(4) p {
 
 /* MEDIA QUERIES START */
 @media only screen and (max-width: 600px) {
+
+    header,
+    section,
+    footer{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}       
+    
     header .menu-icon {
         display: block;
     }
